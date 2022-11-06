@@ -65,38 +65,31 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+<!-- ADD EXAMPLE HERE WHEN READY
+    [![Product Name Screen Shot][product-screenshot]](https://example.com)
+-->
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
+This repository contains the `am-i-better-than-you` project. This project aims to enable the streamlined development of components to 
+compare your *rank* in several videos against specific other people. 
+
+<!-- Add more information in the ABOUT section once further developed. -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 ### Built With
 
-* [![Next][Next.js]][Next-url]
 * [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+The following steps delineate the process to install and prepare your local environment for developing, contributing, and updating the package.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
+You will require the following packages to be able to utilise this project in your local environment.
 * npm
   ```sh
   npm install npm@latest -g
@@ -104,18 +97,23 @@ This is an example of how to list things you need to use the software and how to
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
+1. Clone the repo
+   ```shell
    git clone https://github.com/jamestkelly/am-i-better-than-you.git
    ```
-3. Install NPM packages
-   ```sh
+2. Install NPM packages
+   ```shell
    npm install
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
+3. Build the package
+   ```shell
+   npm build
+   ```
+4. Additionally, you can perform the following actions to verify the integrity of the package.
+   ```shell
+   npm test
+   npm format
+   npm lint
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -125,16 +123,18 @@ This is an example of how to list things you need to use the software and how to
 <!-- USAGE EXAMPLES -->
 ## Usage
 
+TO DO: Add information regarding usage of this package upon further completion of features.
+
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 <!-- ROADMAP -->
 ## Roadmap
+
+TO DO: Add road map information.
 
 - [ ] Feature 1
 - [ ] Feature 2
@@ -144,8 +144,6 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 See the [open issues](https://github.com/jamestkelly/am-i-better-than-you/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- CONTRIBUTING -->
 ## Contributing
@@ -163,16 +161,12 @@ Don't forget to give the project a star! Thanks again!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 <!-- LICENSE -->
 ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- CONTACT -->
 ## Contact
@@ -187,9 +181,7 @@ Project Link: [https://github.com/jamestkelly/am-i-better-than-you](https://gith
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* []()
-* []()
-* []()
+* [Step by step: Building and publishing an NPM Typescript package.](https://itnext.io/step-by-step-building-and-publishing-an-npm-typescript-package-44fe7164964c)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -226,6 +218,3 @@ Project Link: [https://github.com/jamestkelly/am-i-better-than-you](https://gith
 [Bootstrap-url]: https://getbootstrap.com
 [JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
 [JQuery-url]: https://jquery.com
-
-# am-i-better-than-you
-A wrapper for gaming APIs to enable users to compare their ranks easily against others.
