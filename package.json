@@ -1,0 +1,40 @@
+{
+  "name": "am-i-better-than-you",
+  "version": "1.0.0",
+  "description": "<!-- PROJECT SHIELDS -->\r <!--\r *** I'm using markdown \"reference style\" links for readability.\r *** Reference links are enclosed in brackets [ ] instead of parentheses ( ).\r *** See the bottom of this document for the declaration of the reference variables\r *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.\r *** https://www.markdownguide.org/basic-syntax/#reference-style-links\r -->\r [![Contributors][contributors-shield]][contributors-url]\r [![Forks][forks-shield]][forks-url]\r [![Stargazers][stars-shield]][stars-url]\r [![Issues][issues-shield]][issues-url]\r [![MIT License][license-shield]][license-url]\r [![LinkedIn][linkedin-shield]][linkedin-url]",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --config jestconfig.json",
+    "build": "tsc",
+    "format": "prettier --write \"src/*.tsx\"",
+    "lint": "eslint src/* --ext .ts",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm test && npm run lint",
+    "preversion": "npm run lint",
+    "version": "npm run format && git add -A src",
+    "postversion": "git push && git push --tags"
+  },
+  "files": [
+    "lib/**/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamestkelly/am-i-better-than-you.git"
+  },
+  "keywords": ["gaming", "typescript", "esports"],
+  "author": "Jim Kelly & Patrick Randell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jamestkelly/am-i-better-than-you/issues"
+  },
+  "homepage": "https://github.com/jamestkelly/am-i-better-than-you#readme",
+  "devDependencies": {
+    "@types/jest": "^29.2.2",
+    "eslint": "^8.27.0",
+    "jest": "^29.2.2",
+    "prettier": "^2.7.1",
+    "ts-jest": "^29.0.3",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^4.8.4"
+  }
+}

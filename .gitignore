@@ -106,3 +106,6 @@ dist
 # User IDE configurations
 .idea/
 .vscode/
+
+# Build directories
+/lib
