@@ -108,4 +108,4 @@ dist
 .vscode/
 
 # Build directories
-/lib
+lib/
